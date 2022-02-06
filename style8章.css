@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    width: 960px;
+    margin:50px auto;
+}
+
+.list-date{
+    padding: 20px;
+}
+
+.list-date:nth-child(odd){
+    background-color: gainsboro;
+}
+
+.color{
+    width: 960px;
+    margin:0 auto 10px;
+    background-color: aliceblue;
+}
+
+.color-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-date{
+    width: 30%;
+    height:200px;
+    background-color: yellow;
+    margin:0 5% 40px 0;
+}
+.color-date:nth-child(3n){
+    margin-right: 0;
+}
+.color-date:nth-child(4n-3){
+    background-color: orange;
+}
